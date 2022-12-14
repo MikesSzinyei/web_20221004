@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: bisque;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;;
+   
+}
+
+.container{
+    max-width: 900px;
+    min-width: 300px;
+    width:70%;
+    margin:0 auto;
+    position: relative;
+}
+.fejlec{
+    background: url('./../img/logo.jpg');
+    
+    background-repeat: no-repeat;
+    max-height: 200px;
+    height:200px;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 0 0 0 200px;
+}
+ul{
+    list-style-type: none;
+}
+ul::after, .tartalom::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.menu ul li{
+    background-color: rgb(173, 115, 7);
+    max-width: 12.4999999%;
+    width:12.49999999%;
+    float:left;
+    text-align: center;
+    border: 1px solid white;
+    border-left: none;
+}
+.menu ul li:last-child{
+        border-right: none;
+}
+
+.menu ul li a{
+    
+    padding: 15px 0;
+    width: 100%;
+    display: inline-block;
+    color: lightgray;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.tartalom .hasab img{
+    float:left;
+    margin: 0 5px 0 0;
+}
+
+.tartalom .hasab:last-child img{
+    float:right;
+    margin:0 0 0 5px;
+}
+.tartalom{
+    padding: 20px 10px 30px 10px;
+    background: white;
+}
+.hasab{
+    box-sizing: border-box;
+    width:49.999999%;
+    float:left;
+    text-align: justify;    
+    padding:20px;
+}
+.hasab:first-child{
+    padding-right: 15px;
+}
+.hasab:last-child{
+    padding-left: 15px;
+}
+.hasab h2{
+    color:white;
+    background-color: darkkhaki;
+    text-indent: 20px;
+    margin-bottom: 40px;
+    font-size: 1.4em;
+}
+.lablec{
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 0.8em;
+    margin-bottom: 2000px;
+}
+.fej{
+    position: sticky;
+    left:0px;
+    right:0px;
+    top:0px;
+}
